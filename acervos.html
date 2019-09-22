@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="./css/acervos.css">
 </head>
     <body>
+        <script type='text/javascript'>
+
+			dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado")
+			monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro")
+			now = new Date;
+			document.write ("Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ]   +  " de "  +     now.getFullYear () + ". ")
+
+		</script>
         <header class="menu">
             <div class="menu-principal">
                 <a class="menu-logo" href="./index.html"> <h1>Bosque </h1> </a>
